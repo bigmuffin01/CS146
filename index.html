@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+		<script src="script.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <title>College Eats</title>
+    </head>
+
+    <body>
+       
+        <hr>
+        <header>
+            <h1>College Eats</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/Food Banner.jpg" alt="Food Banner"/>
+            
+        </header>
+        <div>
+            <h3>Search By Your Diet Restrictions:</h3>
+			<input type="button" value="Vegetarian" onclick="filterRecipes('V');"/>
+			<input type="button" value="Pescatarian" onclick="filterRecipes('P');"/>
+			<input type="button" value="Lactose-Intolerant" onclick="filterRecipes('LI');"/>
+			<input type="button" value="Reset" onclick="resetFilters();"/>
+        </div>
+        <hr>
+        <div id="oats">
+            <h2>Post 1</h2>
+            <img src="images/overnight-oats.jpg" alt="Picture of Overnight Oats" width="400" height="250"/>
+            <h3>Tags</h3> <p>Vegetarian  Pescatarian</p>
+            <p> <strong>Description:</strong> Example Details </p>
+            <p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+        <div id="grilledCheese">
+            <h2>Post 2</h2>
+            <img src="images/Grilled Cheese.jpg" alt="Picture of Grilled Cheese" width="400" height="250"/>
+            <h3>Tags</h3> <p>Vegetarian  Pescatarian</p>
+            <p> <strong>Description:</strong> Example Details </p>
+            <p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+        <div id="salad">
+            <h2>Post 3</h2>
+            <img src="images/GrilledChickenSalad.jpg" alt="Picture of Grilled Chicken Salad" width="400" height="350"/>
+            <h3>Tags</h3> <p>Lactose Intolerant</p>
+            <p> <strong>Description:</strong> Example Details </p>
+            <p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+        <div id="pizza">
+            <h2>Post 4</h2>
+            <img src="images/Pizza.jpg" alt="Picture of Pizza" width="400" height="275"/>
+            <h3>Tags</h3> <p>Vegetarian  Pescatarian</p>
+            <p> <strong>Description:</strong> Example Details </p>
+			<p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+        <div id="pasta">
+            <h2>Post 5</h2>
+            <img  src="images/Pasta.jpeg" alt="Picture of Pasta" width="400" height="300"/>
+            <h3>Tags</h3> <p>Vegetarian</p>
+            <p> <strong>Description:</strong> Example Details </p>
+            <p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+        <div id="ramen">
+            <h2>Post 6</h2>
+            <img  src="images/Ramen.jpeg" alt="Picture of Ramen" width="400" height="420"/>
+            <h3>Tags</h3> <p>Lactose-Intolerant</p>
+            <p> <strong>Description:</strong> Example Details </p>
+            <p> <strong>Instructions:</strong> Example Details </p>
+			<hr>
+        </div>
+		<br><br>
+
+        <footer>
+            <p><strong>Powered by:</strong> Students of CS146 @Stevens Institute</p>
+        </footer>
+
+    </body>
+</html>
