@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fa80806f;
+}
+
+header {
+    background-color: #b55454;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fc7a7a;
+    text-align: center;
+    border-radius: 15px;
+}
+section ul { 
+    list-style-position: inside;
+}
+
+/* Center images and text */
+div {
+    text-align: center;
+}
+
+div img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #b55454;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
